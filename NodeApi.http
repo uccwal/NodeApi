@@ -1,0 +1,35 @@
+# No Database
+GET http://localhost:3000/sampleGet
+
+###
+# No Database
+POST http://localhost:3000/samplePost
+Content-Type: application/json; charset=utf-8
+
+{ "title" : "데프콘",
+  "author" : "내용" }
+###
+# Database
+GET http://localhost:3000/dbsampleSelect
+
+###
+# Database
+POST http://localhost:3000/dbsampleInsert
+Content-Type: application/json; charset=utf-8
+
+{
+  "title" : "데프콘 수정해버리기 실패 ㅋ",
+  "author" : "내용"
+}
+
+###
+PUT http://localhost:3000/dbsampleUpdate/1
+Content-Type: application/json; charset=utf-8
+
+{
+  "title" : "데프콘 수정해버리기 실패 ㅋ",
+  "author" : "내용"
+}
+
+###
+DELETE http://localhost:3000/dbsampleDelete/1
