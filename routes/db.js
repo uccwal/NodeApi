@@ -1,10 +1,11 @@
-const mysql = require('mysql2');
+const mysql = require('mysql');
 
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'svc.sel5.cloudtype.app',
     user: 'root',
-    password: 'ehddns12!@',
-    database: 'mydatabase',
+    password: '0000',
+    database: 'cmon',
+    port: '30306'
 });
 db.connect((err) => {
     if (err) {
