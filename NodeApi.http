@@ -13,6 +13,9 @@ Content-Type: application/json; charset=utf-8
 GET http://localhost:3000/dbsampleSelect
 
 ###
+GET https://port-0-node-express-12fhqa2llo4gm5dx.sel5.cloudtype.app/dbsampleSelect
+Content-Type: application/json; charset=utf-8
+###
 # Database
 POST http://localhost:3000/dbsampleInsert
 Content-Type: application/json; charset=utf-8
